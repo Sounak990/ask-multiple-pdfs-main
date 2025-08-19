@@ -1,7 +1,5 @@
 # ReaderBuddy: Smart PDF Assistant
 
-> This project is based on the "Chat with Multiple PDFs" tutorial, which you can find on [YouTube](https://youtu.be/dXxQ0LR-3Hg).
-
 ReaderBuddy is an interactive web application built with Streamlit that allows users to upload multiple PDF documents and engage in a natural language conversation about their content. The application leverages a Retrieval-Augmented Generation (RAG) pipeline to provide accurate, context-aware answers based solely on the information within the uploaded documents.
 
 ## Core Features
@@ -14,7 +12,6 @@ ReaderBuddy is an interactive web application built with Streamlit that allows u
 
 ## How It Works (Architecture)
 
-![MultiPDF Chat App Diagram](https://raw.githubusercontent.com/alejandro-ao/ask-multiple-pdfs/main/docs/PDF-LangChain.jpg)
 
 The application follows a modern RAG pipeline to achieve its functionality:
 
@@ -84,8 +81,3 @@ The application will open in your default web browser. You can then upload your 
 
 text
 
-## Contributing
-This repository is intended for educational purposes and does not accept further contributions. It serves as supporting material for the YouTube tutorial that demonstrates how to build this project. Feel free to utilize and enhance the app based on your own requirements.
-
-## License
-This project is released under the [MIT License](https://opensource.org/licenses/MIT).
